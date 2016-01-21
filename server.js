@@ -4,4 +4,4 @@ http.createServer(function (request, response) {
     response.writeHead(200, { "Content-type": "text/plain" });
     response.end("Hello Azure!");
 }).listen(port);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=server.js.map
