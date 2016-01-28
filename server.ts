@@ -1,8 +1,10 @@
+/// <reference path="typings/_reference.ts" />
+
 import http = require("http");
 
 var port:number = process.env.PORT || 8080;
 
-http.createServer(function(request:http.ServerRequest, response:http.ServerResponse) {
-    response.writeHead(200, {"Content-type" : "text/plain"})
-    response.end("Hello Azure!");
+var server = http.createServer(function(req:http.ServerRequest, res:http.ServerResponse) {
+    res.writeHead(200, {"Content-type" : "text/html"})
+    res.end("<h1>Hello World!</h1>");
 }).listen(port);

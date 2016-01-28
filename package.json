@@ -1,10 +1,10 @@
 {
   "name": "comp2068_w2016",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Jujunol/COMP2068_W2016/issues"
   },
-  "homepage": "https://github.com/Jujunol/COMP2068_W2016#readme"
+  "homepage": "https://github.com/Jujunol/COMP2068_W2016#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.13.4",
+    "tsd": "^0.6.5"
+  }
 }
