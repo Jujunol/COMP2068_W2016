@@ -1,0 +1,20 @@
+{
+  "name": "comp2068_w2016",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Jujunol/COMP2068_W2016",
+  "authors": [
+    "Jujunol <jujunol@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/lib",
+    "test",
+    "tests"
+  ]
+}
